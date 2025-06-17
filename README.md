@@ -23,6 +23,19 @@
 This project analyzes and forecasts the **Turnover Volume Index** of retail sales in clothing stores in France using time series analysis. The main goal is to understand sales behavior over time and make short-term forecasts using **ARIMA models** based on the **Box-Jenkins methodology**.
 
 ---
+### 🧾 Abstract
+
+This study explores the **Turnover Volume Index** for retail sales in clothing, focusing on specialized stores over a period of **17 years**, from **February 1999 to April 2016**. The data, sourced from **INSEE**, is **seasonally adjusted** and indexed to **2010** (base year = 100).
+
+The analysis aims to assess trends and forecast future sales volumes using the **ARIMA (AutoRegressive Integrated Moving Average)** model. The **Box-Jenkins methodology** was employed to identify optimal model parameters through steps like stationarity testing, model identification, and diagnostic checking.
+
+To ensure data stationarity, statistical tests such as the **Augmented Dickey-Fuller (ADF)** and **Phillips-Perron (PP)** tests were conducted. The findings indicate that despite short-term fluctuations, the clothing retail sales volume index generally centers around the base year value, with visible **seasonal variations**.
+
+The study concludes by generating **forecasts** using the selected ARIMA model, offering data-driven insights into future trends in the retail clothing sector.
+
+
+📘 Full PDF: See [`Time_Series_Analysis_of_Retail_Sales_Volume_Index_in_Clothing_Stores.pdf`](./Time_Series_Analysis_of_Retail_Sales_Volume_Index_in_Clothing_Stores.pdf)
+---
 
 ## 📊 Dataset Details
 
